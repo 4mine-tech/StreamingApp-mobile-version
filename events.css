@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Maven+Pro:wght@500;700&family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #fff;
+  z-index: 1000;
+}
+.header h2 {
+  font-size: 1.7rem;
+}
+.header h3 {
+  font-size: 1.7rem;
+  color: #a80000;
+}
+.title {
+  font-size: 2rem;
+  font-family: "maven pro", sans-serif;
+  text-align: center;
+  margin-top: 25%;
+  color: #121212;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4.8rem 0 40% 0;
+  gap: 2.4rem;
+  justify-items: center;
+}
+.matchCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2.4rem;
+  width: 90vw;
+  height: 30vh;
+  background-color: #F2F2F2;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  /* margin: 4.8rem auto; */
+  text-align: center;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.teams {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team img {
+  width: 60px;
+  aspect-ratio: 1;
+}
+.team p {
+  color: #121212;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+.time {
+  font-size: 1.6rem;
+  background-color: #a80000;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-family: "maven pro", sans-serif;
+  font-weight: 600;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.matchCard h3 {
+  color: #121212;
+  font-family: "cairo", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.details h4 {
+  color: #121212;
+}
+.fa-microphone {
+  margin-right: 0.6rem;
+}
+.fa-tv {
+  margin-right: 0.6rem;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  filter: drop-shadow(0px -4px 20px rgba(0, 0, 0, 0.2));
+  padding: 2.2rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+}
+.navigation-bar div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+.navigation-bar div h4 {
+  font-size: 1.6rem;
+  color: #121212;
+}
+.navigation-bar div i {
+  font-size: 2.4rem;
+  color: #121212;
+}
+#events {
+  color: #a80000;
+}
+#events-icon {
+  color: #a80000;
+}
+#channels {
+  color: #121212;
+}
+#channels-icon {
+  color: #121212;
+}
